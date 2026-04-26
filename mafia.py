@@ -23,10 +23,14 @@ socketio = SocketIO(app,
 
 # Database configuration for PythonAnywhere MySQL
 DB_CONFIG = {
-    'host': 'yourusername.mysql.pythonanywhere-services.com',  # PythonAnywhere MySQL host
-    'user': 'yourusername',
-    'password': 'your_mysql_password',
-    'database': 'yourusername$mafia_game'
+    'host': 'shortline.proxy.rlwy.net',
+    'user': 'root',
+    'password': 'ZTBeLJxWaaHHeqgjcJiYOvwEHOaOIVxs',
+    'database': 'railway',
+    'port': 27197,
+    'cursorclass': pymysql.cursors.DictCursor,
+    'autocommit': True,
+    'connect_timeout': 10
 }
 
 # ============================================
