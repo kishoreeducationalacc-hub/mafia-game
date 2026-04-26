@@ -938,6 +938,10 @@ def end_game(room_code, winner):
 # MAIN APPLICATION ENTRY POINT
 # ============================================
 if __name__ == '__main__':
-    print("🎮 Starting Mafia Game Server...")
-    print("🌐 Connect players to your PythonAnywhere URL")
-    socketio.run(app, host='0.0.0.0', port=5000, debug=False)
+    print("="*60)
+    print("🎭 MAFIA GAME SERVER")
+    print("="*60)
+    print(f"📊 Database: {DB_CONFIG['host']}")
+    print(f"🌐 Running on Railway")
+    print("="*60)
+    socketio.run(app, host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
