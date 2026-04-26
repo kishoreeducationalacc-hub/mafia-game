@@ -1,0 +1,6 @@
+# requirements.txt - Upload this to PythonAnywhere
+flask==2.3.0
+flask-socketio==5.3.4
+flask-cors==4.0.0
+python-socketio==5.9.0
+pymysql==1.1.0
