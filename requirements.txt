@@ -1,9 +1,0 @@
-flask==3.0.0
-flask-socketio==5.3.4
-flask-cors==4.0.0
-python-socketio==5.9.0
-pymysql==1.1.0
-gunicorn==22.0.0
-gevent==24.2.1
-greenlet==3.0.3
-setuptools==69.0.3
